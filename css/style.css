@@ -1,4 +1,73 @@
+:root {
+  --navigation-color: #2196f3;
+}
+/*коммиты*/
+
+body {
+  color: #757575;
+  background-color: #e5e5e5;
+}
 .name {
   color: rgb(0, 255, 106);
   background-color: #ffffff;
 }
+/*Шапка портфолио начало*/
+.header {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-display: swap;
+}
+.header-logo1 {
+  color: #2196f3;
+}
+.header-logo2 {
+  color: #000000;
+}
+.navheader,
+.contacts,
+.button {
+  list-style: none;
+}
+.navigation {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.header-page:hover,
+.header-page:focus {
+  color: #2196f3;
+}
+.contact {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+}
+/*Шапка портфолио конец*/
+/*Начало секции портфолио*/
+.button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/*Конец секции портфолио*/
