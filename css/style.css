@@ -11,14 +11,39 @@ body {
   color: rgb(0, 255, 106);
   background-color: #ffffff;
 }
-/*Шапка портфолио начало*/
+/*Секция 1 студии*/
+.title-first {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2f303a;
+}
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /*color: #ffffff;*/
+}
+/*Шапка студия и портфолио начало*/
 .header {
   font-family: "Raleway";
   font-weight: 700;
   font-display: swap;
 }
 .header-logo1 {
-  color: #2196f3;
+  color: var(--navigation-color);
 }
 .header-logo2 {
   color: #000000;
@@ -54,7 +79,7 @@ body {
 .contact:focus {
   color: #2196f3;
 }
-/*Шапка портфолио конец*/
+/*Шапка студия и портфолио конец*/
 /*Начало секции портфолио*/
 .button {
   font-family: Roboto, sans-serif;
