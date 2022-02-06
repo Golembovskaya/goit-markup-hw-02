@@ -1,20 +1,21 @@
 :root {
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-fond-family: "Raleway", sans-serif;
   --navigation-color: #2196f3;
 }
 /*коммиты*/
 
-body {
+/*body {
   color: #757575;
   background-color: #e5e5e5;
-}
+}*/
 .name {
   color: rgb(0, 255, 106);
   background-color: #ffffff;
 }
-/*Секция 1 студии*/
-.title-first {
-  font-family: Roboto;
-  font-style: normal;
+/*Начало Секции 1 студии*/
+.title {
+  font-family: var(--main-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -25,7 +26,7 @@ body {
   background: #2f303a;
 }
 .btn {
-  font-family: Roboto;
+  font-family: var(--main-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -36,25 +37,113 @@ body {
   letter-spacing: 0.06em;
   /*color: #ffffff;*/
 }
-/*Шапка студия и портфолио начало*/
-.header {
-  font-family: "Raleway";
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+/*Конец Секции 1 студии*/
+/*Начало Секции 2 студии*/
+.list-item .h3-list-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
   font-weight: 700;
-  font-display: swap;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
-.header-logo1 {
-  color: var(--navigation-color);
+.list-item .p-list-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
-.header-logo2 {
+/*Конец Секции 2 студии*/
+/*Начало Секции 3 студии*/
+.h2-list-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*Конец Секции 3 студии*/
+/*Начало Секции 4 студии*/
+.h3-list-title-name {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.p-list-title-name {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Конец Секции 4 студии*/
+/*Начало секции в портфолио*/
+.list-item {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.items {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Конец секции в портфолио*/
+/*Шапка студия и портфолио начало*/
+.header .nav,
+.main-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-blue {
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo {
   color: #000000;
+  text-decoration: none;
 }
 .navheader,
 .contacts,
-.button {
+.button-modal,
+.list-item {
   list-style: none;
+  border-style: none;
 }
 .navigation {
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,7 +156,7 @@ body {
   color: #2196f3;
 }
 .contact {
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,17 +171,49 @@ body {
 /*Шапка студия и портфолио конец*/
 /*Начало секции портфолио*/
 .button {
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
   color: #212121;
   text-decoration: none;
+  font-family: inherit;
 }
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #2196f3;
   color: #ffffff;
+  font-family: inherit;
 }
 /*Конец секции портфолио*/
+/*Начало футера*/
+.main-footer {
+  background-color: #2f303a;
+}
+.logo-white {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-adress {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-mail,
+.footer-tel {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+/*Конец футера*/
