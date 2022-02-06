@@ -14,6 +14,9 @@ body {
 }
 /*Начало Секции 1 студии*/
 .title {
+  background: var(--backgraund-section);
+}
+.title-first {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -21,7 +24,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--btn-tittle);
-  background: var(--backgraund-section);
+  font-family: var(--main-font-family);
 }
 .btn {
   font-style: normal;
@@ -110,17 +113,18 @@ body {
   font-family: var(--secondary-fond-family);
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-blue {
   color: var(--navigation-color);
   text-decoration: none;
+  font-size: 26px;
 }
 .logo {
   color: var(--btn-main-color-text);
   text-decoration: none;
+  font-size: 26px;
 }
 .navheader,
 .contacts,
@@ -133,6 +137,7 @@ body {
 }
 .navigation,
 .contact {
+  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
