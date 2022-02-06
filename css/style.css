@@ -10,6 +10,7 @@
 }
 body {
   font-family: var(--main-font-family);
+  color: var(--btn-main-color-text);
 }
 /*Начало Секции 1 студии*/
 .title {
