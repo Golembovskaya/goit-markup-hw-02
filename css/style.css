@@ -183,6 +183,10 @@ body {
   text-shadow: none;
   border-radius: 4px;
 }
+.button .current {
+  color: var(--btn-tittle);
+  background-color: var(--btn-background);
+}
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--navigation-color);
